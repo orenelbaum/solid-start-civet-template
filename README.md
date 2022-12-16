@@ -1,6 +1,8 @@
 # SolidStart Template with Civet
 
-A template for [Solid Start](https://start.solidjs.com) with [Civet](https://github.com/DanielXMoore/Civet)
+A template for [Solid Start](https://start.solidjs.com) with [Civet](https://github.com/DanielXMoore/Civet).
+
+The Vite plugin for Civet is taken from https://github.com/lorefnon/vite-plugin-civet
 
 ## Creating a project
 
