@@ -1,5 +1,5 @@
 { Title } from 'solid-start'
-Counter from '~/components/Counter.civet'
+Counter from '../components/Counter.civet'
 
 export default function Home()
   <main>
