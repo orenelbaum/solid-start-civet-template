@@ -1,4 +1,4 @@
-# SolidStart Template with Civet
+# Solid Start Template with Civet
 
 A template for [Solid Start](https://start.solidjs.com) with [Civet](https://github.com/DanielXMoore/Civet).
 
