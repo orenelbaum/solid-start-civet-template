@@ -12,6 +12,7 @@ specifiers:
   typescript: ^4.8.4
   undici: ^5.11.0
   vite: ^3.1.8
+  vite-plugin-civet: ^0.1.0
 
 dependencies:
   '@solidjs/meta': 0.28.2_solid-js@1.6.5
@@ -27,6 +28,7 @@ devDependencies:
   solid-start-node: 0.2.7_5rcqlkztk6lvdy7aksayuiud3e
   typescript: 4.9.4
   vite: 3.2.5
+  vite-plugin-civet: 0.1.0
 
 packages:
 
@@ -2624,6 +2626,14 @@ packages:
       rollup: 2.79.1
       route-sort: 1.0.0
 
+  /rollup/2.77.3:
+    resolution: {integrity: sha512-/qxNTG7FbmefJWoeeYJFbHehJ2HNWnjkAFRKzWN/45eNBBF/r8lo992CwcJXEzyVxs5FmfId+vTSTQDb+bxA+g==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /rollup/2.79.1:
     resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
@@ -2894,6 +2904,19 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
+  /vite-plugin-civet/0.1.0:
+    resolution: {integrity: sha512-HjCiIdvIsPNQjxYMBpTokLFk87l+YRWXfz69XFTVYpGBDQbvTL8o1pSaa+4q/57CZBGVuGBzKtsZOXhZhgzmjQ==}
+    dependencies:
+      '@danielx/civet': 0.5.0
+      '@rollup/pluginutils': 4.2.1
+      cheerio: 1.0.0-rc.12
+      vite: 2.9.15
+    transitivePeerDependencies:
+      - less
+      - sass
+      - stylus
+    dev: true
+
   /vite-plugin-inspect/0.6.1_vite@3.2.5:
     resolution: {integrity: sha512-MQzIgMoPyiPDuHoO6p7QBOrmheBU/ntg0cgtgcnm21S/Xds5oak1CbVLSAvv4fK1ZpetLK+tlJ+2mlFO9fG3SQ==}
     engines: {node: '>=14'}
@@ -2925,6 +2948,30 @@ packages:
       vitefu: 0.2.3_vite@3.2.5
     transitivePeerDependencies:
       - supports-color
+
+  /vite/2.9.15:
+    resolution: {integrity: sha512-fzMt2jK4vQ3yK56te3Kqpkaeq9DkcZfBbzHwYpobasvgYmP2SoAr6Aic05CsB4CzCZbsDv4sujX3pkEGhLabVQ==}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.14.54
+      postcss: 8.4.20
+      resolve: 1.22.1
+      rollup: 2.77.3
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
 
   /vite/3.2.5:
     resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
