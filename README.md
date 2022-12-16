@@ -1,6 +1,6 @@
-# SolidStart
+# SolidStart Template with Civet
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+A template for [`solid-start`](https://start.solidjs.com) with ['Civet'](https://github.com/DanielXMoore/Civet)
 
 ## Creating a project
 

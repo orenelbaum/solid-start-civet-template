@@ -1,5 +1,5 @@
 {
-  "name": "solid-start-civet-test",
+  "name": "solid-start-civet-template",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
