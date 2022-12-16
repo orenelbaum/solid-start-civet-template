@@ -3,7 +3,7 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-a {
+.nav-link {
   margin-right: 1rem;
 }
 

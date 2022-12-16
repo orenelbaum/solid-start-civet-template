@@ -1,16 +1,7 @@
 // @refresh reload
 { Suspense } from 'solid-js'
 {
-  A
-  Body
-  ErrorBoundary
-  FileRoutes
-  Head
-  Html
-  Meta
-  Routes
-  Scripts
-  Title
+  A, Body, ErrorBoundary, FileRoutes, Head, Html, Meta, Routes, Scripts, Title
 } from 'solid-start'
 import './root.css'
 
@@ -18,13 +9,12 @@ export default function Root()
   <Html lang='en'>
     <Head>
       <Title>SolidStart - Bare
-      <Meta charset='utf-8' />
-      <Meta name='viewport' content='width=device-width, initial-scale=1' />
+      <Meta charset='utf-8'>
+      <Meta name='viewport' content='width=device-width, initial-scale=1'>
     <Body>
       <Suspense>
         <ErrorBoundary>
-          <A href='/'>Index</A>
-          <A href='/about'>About</A>
-          <Routes>
-            <FileRoutes />
-      <Scripts />
+          <A href='/' class='nav-link'>Index
+          <A href='/about' class='nav-link'>About
+          <Routes><FileRoutes>
+      <Scripts>
