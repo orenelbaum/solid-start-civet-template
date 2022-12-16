@@ -1,6 +1,6 @@
 # SolidStart Template with Civet
 
-A template for [`solid-start`](https://start.solidjs.com) with ['Civet'](https://github.com/DanielXMoore/Civet)
+A template for [Solid Start](https://start.solidjs.com) with [Civet](https://github.com/DanielXMoore/Civet)
 
 ## Creating a project
 
