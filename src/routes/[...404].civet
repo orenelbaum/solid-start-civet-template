@@ -1,0 +1,14 @@
+{ Title } from 'solid-start'
+{ HttpStatusCode } from 'solid-start/server'
+
+export default function NotFound()
+  <main>
+    <Title>Not Found
+    <HttpStatusCode code={404} />
+    <h1>Page Not Found
+    <p>
+      Visit{' '}
+      <a href='https://start.solidjs.com' target='_blank'>
+        start.solidjs.com
+      {' '}
+      to learn how to build SolidStart apps.

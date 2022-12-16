@@ -1,0 +1,14 @@
+{ Title } from 'solid-start'
+Counter from '~/components/Counter.civet'
+
+export default function Home()
+  <main>
+    <Title>Hello World
+    <h1>Hello world!
+    <Counter />
+    <p>
+      Visit{' '}
+      <a href='https://start.solidjs.com' target='_blank'>
+        start.solidjs.com
+      {' '}
+      to learn how to build SolidStart apps.
