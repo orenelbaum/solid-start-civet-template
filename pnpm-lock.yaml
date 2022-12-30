@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@danielx/civet': ^0.5.0
+  '@danielx/civet': ^0.5.16
   '@rollup/pluginutils': ^5.0.2
   '@solidjs/meta': ^0.28.0
   '@solidjs/router': ^0.5.0
@@ -22,7 +22,7 @@ dependencies:
   undici: 5.14.0
 
 devDependencies:
-  '@danielx/civet': 0.5.0
+  '@danielx/civet': 0.5.16
   '@rollup/pluginutils': 5.0.2
   cheerio: 1.0.0-rc.12
   solid-start-node: 0.2.7_5rcqlkztk6lvdy7aksayuiud3e
@@ -1125,8 +1125,8 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
 
-  /@danielx/civet/0.5.0:
-    resolution: {integrity: sha512-7HDXbw61sB6RHNWo9zcfWNGHU6yweT0alam23Qj4cUnjld1eM93quwTFxW1rzVzwsVMWEMlkQMd+SVJ3uFHBqw==}
+  /@danielx/civet/0.5.16:
+    resolution: {integrity: sha512-VPWYfkKApdNbDmGfzz4gdeEWphR/PhkbvTaJM0lUsZjNuOMXY9KJF9P0bF3albyW04O4kxfmiXOz/Hqqj9sesw==}
     engines: {node: ^18.6.0 || ^16.17.0}
     hasBin: true
     dev: true
@@ -2907,7 +2907,7 @@ packages:
   /vite-plugin-civet/0.1.0:
     resolution: {integrity: sha512-HjCiIdvIsPNQjxYMBpTokLFk87l+YRWXfz69XFTVYpGBDQbvTL8o1pSaa+4q/57CZBGVuGBzKtsZOXhZhgzmjQ==}
     dependencies:
-      '@danielx/civet': 0.5.0
+      '@danielx/civet': 0.5.16
       '@rollup/pluginutils': 4.2.1
       cheerio: 1.0.0-rc.12
       vite: 2.9.15

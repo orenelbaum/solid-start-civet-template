@@ -3,5 +3,5 @@ import './Counter.css'
 
 export default function Counter()
   [count, setCount] := createSignal 0
-  <button class='increment' onClick={=> setCount count() + 1}>
+  <button .increment onClick={=> setCount count() + 1}>
     Clicks: {count()}

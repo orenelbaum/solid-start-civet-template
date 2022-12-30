@@ -14,7 +14,7 @@ export default function Root()
     <Body>
       <Suspense>
         <ErrorBoundary>
-          <A href='/' class='nav-link'>Index
-          <A href='/about' class='nav-link'>About
+          <A href='/' .nav-link>Index
+          <A href='/about' .nav-link>About
           <Routes><FileRoutes>
       <Scripts>
